@@ -54,5 +54,19 @@ end
 # sex_movie.add_character("Carrie Bradshaw", sarah)
 # sex_movie.add_character("Samantha Jones", kim)
 
+
+# bakery test cases -----------------------------------
+# b1 = Bakery.new("Marthas")
+# flour = Ingredient.new("flour", 100)
+# sugar = Ingredient.new("sugar", 100)
+# cocoa_powder = Ingredient.new("cocoa powder", 100)
+# milk = Ingredient.new("milk", 100)
+# cream = Ingredient.new("cream", 100)
+# skim_milk = Ingredient.new("skim milk", 50)
+
+# b1.add_dessert("red velvet cupcake", [flour, sugar, cocoa_powder, milk])
+# d1 = b1.add_dessert("tres leches", [milk, cream, flour, skim_milk])
+
+
 binding.pry
 "anh"
