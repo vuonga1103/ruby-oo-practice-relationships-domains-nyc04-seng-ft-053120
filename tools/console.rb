@@ -68,16 +68,16 @@ end
 # d1 = b1.add_dessert("tres leches", [milk, cream, flour, skim_milk])
 
 # lyft test cases -----------------------------------
-anh = Passenger.new("Anh")
-dao = Passenger.new("Dao")
+# anh = Passenger.new("Anh")
+# dao = Passenger.new("Dao")
 
-bob = Driver.new("Bob")
-teddy = Driver.new("Teddy")
-tammy = Driver.new("Tammy")
+# bob = Driver.new("Bob")
+# teddy = Driver.new("Teddy")
+# tammy = Driver.new("Tammy")
 
-ride1 = anh.accepts_ride(bob, 10)
-ride2 = anh.accepts_ride(teddy, 3)
-ride3 = tammy.accepts_ride(dao, 150)
+# ride1 = anh.accepts_ride(bob, 10)
+# ride2 = anh.accepts_ride(teddy, 3)
+# ride3 = tammy.accepts_ride(dao, 150)
 
 
 binding.pry
