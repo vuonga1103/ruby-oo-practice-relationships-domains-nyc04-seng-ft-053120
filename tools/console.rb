@@ -79,6 +79,22 @@ end
 # ride2 = anh.accepts_ride(teddy, 3)
 # ride3 = tammy.accepts_ride(dao, 150)
 
+# crowdfunding test cases -----------------------------------
+# anh = User.new("Anh", 10000)
+# vic = User.new("Vic", 50000)
+# kevin = User.new("Kevin", 30000)
+
+# cat_project = anh.create_project("Feed The Felines", "To help cats everywhere", 10000)
+# planet_project = kevin.create_project("Save Earth", "To make earth a greener place", 20000)
+# equality_project = kevin.create_project("End Racial Disparity", "To help people of all colors excel", 15000)
+
+# pledge1 = vic.pledge_project(cat_project, 1000)
+# pledge2 = vic.pledge_project(cat_project, 2000)
+# pledge3 = vic.pledge_project(planet_project, 500)
+# pledge4 = anh.pledge_project(planet_project, 300)
+# pledge5 = kevin.pledge_project(cat_project, 20000)
+
+
 
 binding.pry
 "anh"
